@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoadingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组件化Demo" />
+
+    <Button
+        android:id="@+id/btn_to_module_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ModuleMsg" />
+
+    <Button
+        android:id="@+id/btn_to_module_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ModuleContact" />
+
+    <Button
+        android:id="@+id/btn_to_module_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ModuleMy" />
+
+    <Button
+        android:id="@+id/btn_call_msgservice_printmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用组件Msg服务弹出消息¬" />
+    <Button
+        android:id="@+id/btn_call_contactservice_printmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用组件Contact服务弹出消息" />
+    <Button
+        android:id="@+id/btn_call_myservice_printmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用组件My服务弹出消息¬" />
+</LinearLayout>
